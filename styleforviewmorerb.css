@@ -236,32 +236,15 @@
     padding: 100px;
 }
 
- .fancy {
-    --b: 6px;   /* control the border thickness */
-    --w: 80px;  /* control the width of the line*/
-    --g: 15px;  /* control the gap */
-    --c: #da250d;
-   
-    width: fit-content;
-    padding: 0 1em;
-    line-height: 1.6em;
-    border: 1px solid;
-    color: #fff;
-    background: 
-      conic-gradient(from   45deg at left ,var(--c) 25%,#0000 0) 0,
-      conic-gradient(from -135deg at right,var(--c) 25%,#0000 0) 100%;
-    background-size: 51% 70%;
-    background-origin: border-box;
-    background-repeat: no-repeat;
-    border-image: 
-       linear-gradient(
-         #0000      calc(50% - var(--b)/2),
-         var(--c) 0 calc(50% + var(--b)/2),
-         #0000    0) 
-      1/0 var(--w)/calc(var(--w) + var(--g));
-    margin-inline: auto;
-    font-size: 50px;
-  }
+.section-title {
+  color:#da250d;
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: 0px;
+  text-shadow: 10px 21px 10px black;
+  font-family: 'Poppins', sans-serif;
+}
   
   
   /* View More */
@@ -607,35 +590,14 @@
 {
 
 /* Title */
+@media screen and (max-width:600px) 
+{
 
-.fancy {
-  --b: 6px;   /* control the border thickness */
-  --w: 80px;  /* control the width of the line*/
-  --g: 15px;  /* control the gap */
-  --c: #da250d;
+  .section-title {
+    font-size: 50px;
  
-  width: fit-content;
-  padding: 0 2em;
-
-  line-height: 1.6em;
-  border: 1px solid;
-  color: #fff;
-  background: 
-    conic-gradient(from   45deg at left ,var(--c) 25%,#0000 0) 0,
-    conic-gradient(from -135deg at right,var(--c) 25%,#0000 0) 100%;
-  background-size: 51% 70%;
-  background-origin: border-box;
-  background-repeat: no-repeat;
-  border-image: 
-     linear-gradient(
-       #0000      calc(50% - var(--b)/2),
-       var(--c) 0 calc(50% + var(--b)/2),
-       #0000    0) 
-    1/0 var(--w)/calc(var(--w) + var(--g));
-  margin-inline: auto;
-  font-size: 25px;
- 
-}
+   
+  }
 
 /* viewmore */
 
