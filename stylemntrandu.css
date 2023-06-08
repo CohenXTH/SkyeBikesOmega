@@ -658,16 +658,19 @@ html, body {
             top: 30px;
             z-index: 1;
             }
-    
-          .testbox {
+
+            .testbox {
               display: flex;
               justify-content: center;
               align-items: center;
               height: inherit;
-              padding: 0px;
+              padding: 30px;
               background: transparent;
               backdrop-filter: blur(50px);
               }   
+
+    
+            
 
         /* Go top and SM */
   
