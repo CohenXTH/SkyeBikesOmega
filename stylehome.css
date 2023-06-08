@@ -526,7 +526,7 @@ text-shadow: 0 0 0.125em hsla(0, 100%, 100%, 0.973), 0 0 0.45em var(--glow-color
   padding: 0 1em;
   line-height: 1.6em;
   border: 1px solid;
-  color: #fff;
+  color: #000;
   background: 
     conic-gradient(from   45deg at left ,var(--c) 25%,#0000 0) 0,
     conic-gradient(from -135deg at right,var(--c) 25%,#0000 0) 100%;
@@ -1331,7 +1331,7 @@ body {
     padding: 0 1em;
     line-height: 1.6em;
     border: 1px solid;
-    color: #fff;
+    color: #000;
     background: 
       conic-gradient(from   45deg at left ,var(--c) 25%,#0000 0) 0,
       conic-gradient(from -135deg at right,var(--c) 25%,#0000 0) 100%;
@@ -1479,6 +1479,10 @@ body {
 .modal-dialog .nav-link i {
   margin-right: 10px;
   color: #da250d;
+}
+
+#bbb{
+  height: 10vh;
 }
 
 /* bestsellingbikes */
